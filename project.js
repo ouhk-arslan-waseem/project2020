@@ -8,7 +8,7 @@ const assert = require('assert');
 const http = require('http');
 const url = require('url');
 
-const mongourl = 'mongodb+srv://project2020:project2020@cluster0.635gp.mongodb.net/project2020?retryWrites=true&w=majority';
+const mongourl = '';
 const dbName = 'restaurant';
 const client = new MongoClient(mongourl);
 
